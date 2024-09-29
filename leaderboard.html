@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Leaderboard</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="nav">
+    <ul>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+      <li>
+        <a href="#">Entc</a>
+        <ul class="dropdown">
+          <li><a href="#" target="_blank"><div class="red">FY</div></a></li>
+          <li><a href="#"><div class="red">SY</div></a></li>
+          <li><a href="#"><div class="red">TY</div></a></li>
+          <li><a href="#"><div class="red">BE</div></a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Computer</a>
+        <ul class="dropdown">
+          <li><a href="#"><div class="red">FY</div></a></li>
+          <li><a href="#"><div class="red">SY</div></a></li>
+          <li><a href="#"><div class="red">TY</div></a></li>
+          <li><a href="#"><div class="red">BE</div></a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">IT</a>
+        <ul class="dropdown">
+          <li><a href="#"><div class="red">FY</div></a></li>
+          <li><a href="#"><div class="red">SY</div></a></li>
+          <li><a href="#"><div class="red">TY</div></a></li>
+          <li><a href="#"><div class="red">BE</div></a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Mechanical</a>
+        <ul class="dropdown">
+          <li><a href="#"><div class="red">FY</div></a></li>
+          <li><a href="#"><div class="red">SY</div></a></li>
+          <li><a href="#"><div class="red">TY</div></a></li>
+          <li><a href="#"><div class="red">BE</div></a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Civil</a>
+        <ul class="dropdown">
+          <li><a href="#"><div class="red">FY</div></a></li>
+          <li><a href="#"><div class="red">SY</div></a></li>
+          <li><a href="#"><div class="red">TY</div></a></li>
+          <li><a href="#"><div class="red">BE</div></a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+  <!-- leaderboard #top 3 -->
+  <div class="bg">
+    <div class="top">
+
+      <div class="card">
+          <img src="images/flag1.jpg" alt="Div A">
+          <div class="content">
+              <h2>Team A</h2>
+              <h3>Who dares dreams, wins!!</h3>
+              <p>Last Match <br>Conquired <span>Badminton Chamionship</span> with 10 points!!</p>
+              <div class="point">60 Points</div>
+          </div>
+      </div>
+  
+  
+      <div class="card">
+          <img src="images/flag2.jpg" alt="Div B">
+          <div class="content">
+              <h2>Team B</h2>
+              <h3>Who dares dreams, wins!!</h3>
+              <p>Last Match <br>Conquired <span>Badminton Chamionship</span> with 10 points!!</p>
+              <div class="point"> 60 Points</div>
+          </div>
+      </div>
+  
+  
+      <div class="card">
+          <img src="images/flag3.jpg" alt="Div C">
+          <div class="content">
+              <h2>Team C</h2>
+              <h3>Who dares dreams, wins!!</h3>
+              <p>Last Match <br>Conquired <span>Badminton Chamionship</span> with 10 points!!</p>
+              <div class="point"> 60 Points</div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+    
+<!-- Leaderboard Table -->
+    <main class="table">
+
+      <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 't1')">Olympics Leaderboard</button>
+        <button class="tablinks" onclick="openTab(event, 't2')">Non-Olympic Leaderboard </button>
+
+      </div>
+
+      <div id="t1" class="tabcontent">
+        <!-- TABLE -->
+        <div class="table__body">
+          <table>
+            <thead>
+              <tr>
+                <th> Position </th>
+                <th> Team Name </th>
+                <th> Golden</th>
+                <th> Silver</th>
+                <th> Total Points</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="no1"> 1 <i class="fa fa-trophy" style="color:#ffd600;font-size: 1.8rem;" aria-hidden="true"></i></td>
+                <td> <img src="/images/flag1.jpg" alt="">Team A</td>
+                <td> 200 </td>
+                <td> 100 </td>
+                <td>
+                  <p class="points">300</p>
+                </td>
+
+              </tr>
+              <tr>
+                <td class="no2"> 2 <i class="fa fa-trophy" style="color:#90a4ae;font-size: 1.8rem;" aria-hidden="true"></i></td>
+                <td><img src="/images/flag2.jpg" alt="">Team C</td>
+                <td> 200 </td>
+                <td> 100 </td>
+                <td>
+                  <p class="points">300</p>
+                </td>
+
+              </tr>
+              <tr>
+                <td class="no3"> 3 <i class="fa fa-trophy" style="color:#e57373;font-size: 1.8rem;" aria-hidden="true"></td>
+                <td><img src="/images/flag3.jpg" alt="">Team D</td>
+                <td> 200 </td>
+                <td> 100 </td>
+                <td>
+                  <p class="points">300</p>
+                </td>
+
+              </tr>
+              <tr>
+                <td> 4</td>
+                <td><img src="/images/flag4.jpg" alt="">Team E</td>
+                <td> 200 </td>
+                <td> 100 </td>
+                <td>
+                  <p class="points">300</p>
+                </td>
+
+              </tr>
+              <tr>
+                <td> 5</td>
+                <td><img src="/images/flag5.jpg" alt="">Team F</td>
+                <td> 200 </td>
+                <td> 100 </td>
+                <td>
+                  <p class="points">300</p>
+                </td>
+
+              </tr>
+              <tr>
+                <td> 6</td>
+                <td><img src="/images/flag3.jpg" alt="">Team E</td>
+                <td> 200 </td>
+                <td> 100 </td>
+                <td>
+                  <p class="points">300</p>
+                </td>
+
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <div id="t2" class="tabcontent">
+        <!-- TABLE -->
+        <div class="table__body">
+          <table>
+            <thead>
+              <tr>
+                <th> Position </th>
+                <th> Team Name </th>
+                <th> Golden</th>
+                <th> Silver</th>
+                <th> Total Points</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="no1"> 1 <i class="fa fa-trophy" style="color:#ffd600;font-size: 1.8rem;" aria-hidden="true"></i></td>
+                <td> <img src="/images/flag1.jpg" alt="">Team A</td>
+                <td> 200 </td>
+                <td> 100 </td>
+                <td>
+                  <p class="points">300</p>
+                </td>
+
+              </tr>
+              <tr>
+                <td class="no2"> 2 <i class="fa fa-trophy" style="color:#90a4ae;font-size: 1.8rem;" aria-hidden="true"></i></td>
+                <td><img src="/images/flag2.jpg" alt="">Team C</td>
+                <td> 200 </td>
+                <td> 100 </td>
+                <td>
+                  <p class="points">300</p>
+                </td>
+
+              </tr>
+              <tr>
+                <td class="no3"> 3 <i class="fa fa-trophy" style="color:#e57373;font-size: 1.8rem;" aria-hidden="true"></td>
+                <td><img src="/images/flag3.jpg" alt="">Team D</td>
+                <td> 200 </td>
+                <td> 100 </td>
+                <td>
+                  <p class="points">300</p>
+                </td>
+
+              </tr>
+              <tr>
+                <td> 4</td>
+                <td><img src="/images/flag4.jpg" alt="">Team E</td>
+                <td> 200 </td>
+                <td> 100 </td>
+                <td>
+                  <p class="points">300</p>
+                </td>
+
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </main>
+  </div>
+  
+  <script src="script.js"></script>
+
+  <!--Footer  -->
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h6><img src="https://pccoefitnessfirstfestival.in/static/media/logo.e814aac086678624362a.webp" alt="Fitness Festival Logo"></h6>
+
+      <p class="footer-company-name">@2023 by PCCOE Powered and secured by GoDev</p>
+    </div>
+
+    <div class="footer-center">
+      <div class="contact"><span>Contact Us</span></div>
+      <hr></hr>
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Sector -26, Pradhikaran, Nigdi,</br>
+        Near Akurdi Railway Station,</br>
+        Pune - 411 044.</span></p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91 8087174347</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">santosh.pacharne@pccoepune.org </a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>Days of Operation</span>
+        Mon-Fri: Weekly Activities</br></br>
+
+        Non-Working Sat: Surprise Activities</br></br>
+
+        Sun: Closed
+      </p>
+
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube-play"></i></a>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

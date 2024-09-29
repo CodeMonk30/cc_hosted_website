@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Philosopher:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* navbar */
+.nav {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+
+.nav ul {
+  list-style: none;
+  background: #202020;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+ul li a {
+  display: block;
+  padding: 20px 25px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: 100%;
+  background: #000;
+  position: absolute;
+  z-index: 99;
+  display: none;
+}
+
+ul li a:hover {
+  background: #112c66;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+.red {
+  color: red;
+}
+
+/*cards  */
+.wrapper {
+  background: rgb(191, 18, 93);
+  background: linear-gradient(146deg, rgba(191, 18, 93, 1) 16%, rgba(0, 0, 0, 1) 85%);
+
+
+}
+
+.cards {
+  width: 75%;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 50px;
+  justify-items: center;
+  margin: auto;
+
+
+}
+
+.card {
+  box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.2);
+  background-color: #fff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+.content {
+  text-align: center;
+  padding: 10px;
+
+}
+
+.content h2 {
+  margin-top: 5px;
+  letter-spacing: 1.5px;
+  color: #333;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 1000;
+}
+
+.content h3 {
+  font-size: 17px;
+  color: black;
+  letter-spacing: 1.5px;
+  font: 300;
+
+}
+
+.content p,
+span {
+  margin-top: 10px;
+  color: #5c5c5c;
+  /* font-family: 'Andika', sans-serif; */
+  font-size: 15px;
+}
+
+.content span {
+  color: black;
+  font-weight: 600;
+}
+
+.point {
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgba(249, 115, 22);
+  color: #fff;
+  font-size: 17px;
+  padding: 5px 18px 5px 25px;
+  border-radius: 40px;
+  letter-spacing: 1.5px;
+  font-family: 'Unica One', cursive;
+  text-align: center;
+  background-image: url(images/star.png);
+  background-repeat: no-repeat;
+  background-position: 5px;
+
+}
+
+.point img {
+  width: auto;
+  height: auto;
+  margin-top: px;
+}
+
+/* footer */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+
+h6 img {
+  width: 45%;
+  height: 45%;
+}
+
+.footer-distributed {
+  background: black;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  height: 20%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  font-family: Open Sans;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: rgb(214, 31, 105);
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center .contact span {
+  padding: 5px;
+  color: rgb(214, 31, 105);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+hr {
+  width: 50%;
+  margin-left: 0;
+  background-color: grey;
+}
+
+.footer-distributed .footer-center i {
+  background-color: lightseagreen;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: lightseagreen;
+  text-decoration: none;
+  ;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+  display: flex;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 50%;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+
+}
+
+/*----leaderboard-------------  */
+@media print {
+
+  .table,
+  .table__body {
+    overflow: visible;
+    height: auto !important;
+    width: auto !important;
+  }
+}
+
+/* leaderboard's Trophy bg */
+.bg {
+  min-height: 100vh;
+  background: url(images/lb.jpg) center / cover;
+  /* display: flex; */
+  
+
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap:10%;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+/* blurry div containing tables */
+main.table {
+  width: 82vw;
+  height: 90vh;
+  margin: auto;
+  background-color: #fff5;
+
+  backdrop-filter: blur(7px);
+  box-shadow: 0 .4rem .8rem #0005;
+  border-radius: .8rem;
+
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* Table */
+.table__body {
+  width: 95%;
+  max-height: calc(89% - 1.6rem);
+  background-color: #fffb;
+  margin: .8rem auto;
+  border-radius: .6rem;
+  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+table {
+  width: 100%;
+}
+
+td img {
+  width: 36px;
+  height: 36px;
+  margin-right: .5rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  padding: 1rem;
+  text-align: left;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, #d24531, #d82a4b, #d70568, #ca0087, #b11fa6);
+  color: #F9F5F6;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #0000000b;
+}
+
+.fa-trophy {
+  font-size: 1.8rem;
+}
+
+/* tbody tr:nth-child(1) {
+  background-color: #FFDB58;
+}
+
+tbody tr:nth-child(2) {
+  background-color: #B6B6B4;
+}
+
+tbody tr:nth-child(3) {
+  background-color: #C36241;
+} */
+
+tbody tr {
+  --delay: .1s;
+  transition: .5s ease-in-out var(--delay), background-color 0s;
+}
+
+tbody tr.hide {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+tbody tr:hover {
+  background-color: #fff6 !important;
+}
+
+tbody tr td,
+tbody tr td p,
+tbody tr td img {
+  transition: .2s ease-in-out;
+}
+
+tbody tr.hide td,
+tbody tr.hide td p {
+  padding: 0;
+  font: 0 / 0 sans-serif;
+  transition: .2s ease-in-out .5s;
+}
+
+tbody tr.hide td img {
+  width: 0;
+  height: 0;
+  transition: .2s ease-in-out .5s;
+}
+
+.points {
+  padding: .4rem 0;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: #86e49d;
+  color: #006b21;
+}
+
+@media (max-width: 1000px) {
+  td:not(:first-of-type) {
+    min-width: 12.1rem;
+  }
+}
+
+/* tab styling */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  width: 50%;
+  background-color: #232D3F;
+  color: rgb(255, 0, 84);
+  float: left;
+  border: black;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 1.3rem;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #232D3F;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: black;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
